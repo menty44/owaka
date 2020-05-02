@@ -188,8 +188,8 @@ class WelcomePage extends AbstractWelcomePage {
                             { t('welcomepage.title') }
                         </h1>
                         <p className = 'header-text-description'>
-                            { t('welcomepage.appDescription',
-                                { app: APP_NAME }) }
+                            {/*{ t('welcomepage.appDescription',*/}
+                            {/*    { app: APP_NAME }) }*/}
                         </p>
                     </div>
                     <div id = 'enter_room'>

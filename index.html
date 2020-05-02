@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--#include virtual="base.html" -->
 
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
+    <link rel="apple-touch-icon" href="images/owaka.jpg">
     <link rel="stylesheet" href="css/all.css">
 
     <script>
@@ -14,6 +14,11 @@
         // redirected to a page that is known to have no newer js syntax.
         if (window.navigator.userAgent.match(/(MSIE|Trident)/)) {
             var roomName = encodeURIComponent(window.location.pathname);
+            console.log();
+            console.log("cheki hii room");
+            console.log(roomName);
+            console.log();
+            console.log();
             window.location.href = "static/recommendedBrowsers.html" + "?room=" + roomName;
         }
 

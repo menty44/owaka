@@ -40,7 +40,8 @@ const config = {
                 secure: false,
                 target: devServerProxyTarget,
                 headers: {
-                    'Host': new URL(devServerProxyTarget).host
+                    /* 'Host': new URL(devServerProxyTarget).host*/
+                    'Host': 'localhost:8080'
                 }
             }
         }
